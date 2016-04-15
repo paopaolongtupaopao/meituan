@@ -13,6 +13,7 @@
 		7CAF3ED01CC07F3100241C62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CAF3ECE1CC07F3100241C62 /* Main.storyboard */; };
 		7CAF3ED21CC07F3100241C62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CAF3ED11CC07F3100241C62 /* Assets.xcassets */; };
 		7CAF3ED51CC07F3100241C62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CAF3ED31CC07F3100241C62 /* LaunchScreen.storyboard */; };
+		7CAF3EDE1CC07F8F00241C62 /* Persion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF3EDD1CC07F8F00241C62 /* Persion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7CAF3ED11CC07F3100241C62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CAF3ED41CC07F3100241C62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CAF3ED61CC07F3100241C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CAF3EDC1CC07F8F00241C62 /* Persion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persion.h; sourceTree = "<group>"; };
+		7CAF3EDD1CC07F8F00241C62 /* Persion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Persion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				7CAF3ED31CC07F3100241C62 /* LaunchScreen.storyboard */,
 				7CAF3ED61CC07F3100241C62 /* Info.plist */,
 				7CAF3EC51CC07F3100241C62 /* Supporting Files */,
+				7CAF3EDC1CC07F8F00241C62 /* Persion.h */,
+				7CAF3EDD1CC07F8F00241C62 /* Persion.m */,
 			);
 			path = meituan;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CAF3EDE1CC07F8F00241C62 /* Persion.m in Sources */,
 				7CAF3ECD1CC07F3100241C62 /* ViewController.m in Sources */,
 				7CAF3ECA1CC07F3100241C62 /* AppDelegate.m in Sources */,
 				7CAF3EC71CC07F3100241C62 /* main.m in Sources */,
